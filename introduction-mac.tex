@@ -114,11 +114,16 @@ Now, all required packages are installed.
 
 \section{Git basics}
 In order to use git, first create a GitHub account. You can sign up at \href{https://github.com}{\textcolor{red}{Github}}.
+
+After you have created a GitHub account, you can create an SSH key, so that you can push to repositories without providing your username and password.
+To create a SSH key watch this \href{https://www.youtube.com/watch?v=8X4u9sca3Io}{\textcolor{red}{this video}} and follow the steps.
+
 \subsection{git clone}
 The first command which you will need is \emph{git clone}. With \emph{git clone} you can clone a repository. A repository is where all the code will be kept and where the updates will be added to. 
 
 So that you can clone a repository, search for green \emph{\textcolor{green}{Code}} button and click on to the SSH tab and copy the link which you see. These links usually start with \textbf{git@github.com}...
-\begin{figure}[h!]
+
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{codebtn.png}
 \end{figure}
@@ -138,7 +143,7 @@ With the command
 \begin{verbatim}
 	git add \emph{filename.tex}
 \end{verbatim}
-you can add a single file for commiting and with
+you can add a single file for committing and with
 \begin{verbatim}
 	git add .
 \end{verbatim}
